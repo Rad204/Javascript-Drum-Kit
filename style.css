@@ -1,0 +1,77 @@
+body{
+    font-size: 15px;
+    background:url(
+        'assets/jelly.jpg'
+    ) no-repeat;
+    background-size: cover;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.key{
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    margin: 1rem;
+    font-size: 1rem;
+    width: 80px;
+    text-align: center;
+    color: white;
+    background-color: #724df6;
+    text-shadow: 0 0 .5rem #000;
+    padding: .8rem .5rem;
+    transition: all 0.7s ease;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #00f7ff;
+    box-shadow: 0 0 10px #00f7ff;
+}
+
+kbd{
+    display: block;
+    font-size: 2rem;
+}
+
+.sound{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #00f7ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
